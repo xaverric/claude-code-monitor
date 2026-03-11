@@ -1,0 +1,44 @@
+{
+  "name": "claude-code-monitor",
+  "version": "1.0.0",
+  "description": "Monitor Claude Code usage - rate limits, tokens, costs. macOS menu bar app + cross-platform CLI.",
+  "main": "cli.js",
+  "bin": {
+    "claude-monitor": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js start",
+    "stop": "node cli.js stop",
+    "status": "node cli.js status",
+    "stats": "node cli.js stats",
+    "chart": "node cli.js chart",
+    "build": "bash build.sh"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "monitor",
+    "rate-limit",
+    "usage",
+    "tokens",
+    "cost",
+    "menubar",
+    "macos"
+  ],
+  "author": "Marek Jilek",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marekjilek/claude-code-monitor.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "dependencies": {}
+}

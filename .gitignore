@@ -1,0 +1,4 @@
+node_modules/
+ClaudeCodeMonitor.app/
+.generate-icon
+*.DS_Store
