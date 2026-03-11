@@ -105,6 +105,7 @@ async function tick() {
 }
 
 function run() {
+  ensureDataDir();
   fs.writeFileSync(PID_FILE, String(process.pid));
   log(`Daemon started (PID: ${process.pid})`);
 
